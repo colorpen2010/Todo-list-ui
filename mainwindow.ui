@@ -62,7 +62,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QCalendarWidget" name="calendarWidget">
+   <widget class="QCalendarWidget" name="event_date">
     <property name="geometry">
      <rect>
       <x>240</x>
@@ -72,7 +72,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QTimeEdit" name="timeEdit">
+   <widget class="QTimeEdit" name="event_time">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -80,6 +80,9 @@
       <width>111</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="displayFormat">
+     <string>HH:mm</string>
     </property>
    </widget>
    <widget class="QTextBrowser" name="event_desc">
